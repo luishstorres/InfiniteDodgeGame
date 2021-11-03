@@ -1,0 +1,17 @@
+﻿@page
+@model InfiniteDodgeGame.Pages.GameModel
+@{
+}
+
+<body>
+    <div style="align-content: center;">
+        <canvas id="gameCanvas" width="720" height="405" style="padding-left: 0; padding-right: 0; margin-left: auto; margin-right: auto; display: block;"></canvas>
+    </div>
+    <div>
+        <input type="button" id="startGame" value="Start Game" />
+    </div>
+
+    <script src="~/js/signalr/dist/browser/signalr.js"></script>
+    <script src="~/js/game.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+</body>
